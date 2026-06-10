@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Wireless Headphones",
+      "sku": "SH-109",
+      "price": 49.99,
+      "originalPrice": 66.99,
+      "stock": 128,
+      "status": "In Stock",
+      "description": "Noise-cancelling over-ear headphones with up to 30 hours of battery life.",
+      "discount": 25,
+      "rating": 5,
+      "reviews": 128,
+      "icon": "📱"
+    },
+    {
+      "id": "2",
+      "name": "Premium Sneakers",
+      "sku": "SH-222",
+      "price": 79.99,
+      "originalPrice": 114.99,
+      "stock": 42,
+      "status": "In Stock",
+      "description": "Lightweight running shoes with breathable mesh and superior traction.",
+      "discount": 30,
+      "rating": 4,
+      "reviews": 95,
+      "icon": "👟"
+    },
+    {
+      "id": "4",
+      "name": "Laptop Backpack",
+      "sku": "SH-401",
+      "price": 34.99,
+      "originalPrice": 41.99,
+      "stock": 62,
+      "status": "In Stock",
+      "description": "Durable backpack with padded laptop compartment and USB charging port.",
+      "discount": 15,
+      "rating": 4,
+      "reviews": 78,
+      "icon": "🎒"
+    },
+    {
+      "id": "6",
+      "name": "Beauty Skincare Set",
+      "sku": "SH-608",
+      "price": 39.99,
+      "originalPrice": 61.53,
+      "stock": 34,
+      "status": "In Stock",
+      "description": "Complete skincare kit for hydration, glow, and daily protection.",
+      "discount": 35,
+      "rating": 4,
+      "reviews": 142,
+      "icon": "🧴"
+    },
+    {
+      "name": "wireless headphones",
+      "sku": "108",
+      "price": 49,
+      "stock": 128,
+      "status": "In Stock",
+      "description": "well product",
+      "id": "y_NRwZ-PW9o"
+    }
+  ],
+  "resources": [
+    {
+      "id": "1",
+      "name": "Wireless Headphones",
+      "category": "Electronics",
+      "type": "Gadget",
+      "status": "Available",
+      "price": 49.99,
+      "date": "2026-05-20",
+      "hidden": false,
+      "description": "Noise-cancelling headphones with 30 hours of battery life."
+    },
+    {
+      "name": "Home Office Checklist",
+      "category": "Home",
+      "type": "Checklist",
+      "status": "Coming Soon",
+      "price": 200,
+      "date": "2026-07-01",
+      "hidden": true,
+      "description": "Checklist for setting up a productive home workspace.",
+      "id": "3"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
