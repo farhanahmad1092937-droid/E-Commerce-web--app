@@ -37,9 +37,11 @@ The product data is stored in `db.json` and is accessed through JSON Server only
 1. **Open a terminal** in the project folder.
 
 2. **Start JSON Server:**
+
    ```bash
    json-server --watch db.json --port 3000
    ```
+
    (If `json-server` is not installed globally, use: `npx json-server --watch db.json --port 3000`)
 
 3. **Open the app in your browser:**
@@ -74,8 +76,22 @@ The app will now load products from the JSON Server and you can browse, search, 
 
 ## Screenshots
 
-![Storefront](screenshots/storefront.png)
+### User Panel - Header & Categories
 
-![Admin Dashboard](screenshots/admin-dashboard.png)
+![User Panel Header](screenshots/user_panel_header.png)
 
-> Replace the screenshot placeholders with real screenshots taken from the app.
+### User Panel - Featured Products
+
+![Featured Products](screenshots/user_panel_featured_products.png)
+
+### User Panel - Resource Panel
+
+![Resource Panel](screenshots/user_resource_panel.png)
+
+### User Panel - Special Offers & Contact
+
+![Special Offers](screenshots/user_panel_special_offers.png)
+
+### Admin Panel
+
+![Admin Panel](screenshots/admin_panel.png)
