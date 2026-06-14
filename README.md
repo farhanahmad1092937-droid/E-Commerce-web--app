@@ -1,4 +1,8 @@
-# ShopHub E-Commerce Project
+# E-Commerce Project
+
+**Project Name:** ShopHub E-Commerce  
+**Student Name:** Farhan Ahmad  
+**Roll Number:** F24BDOCS1M01335
 
 This project is a simple storefront and admin panel for an e-commerce site.
 The product data is stored in `db.json` and is accessed through JSON Server only.
@@ -28,30 +32,31 @@ The product data is stored in `db.json` and is accessed through JSON Server only
 - `json-server` installed globally or available via `npx`
 - A local static server to serve the HTML files (for browser fetch support)
 
-## Setup
+## How to Run the App
 
-1. Open a terminal in the project folder.
-2. Start JSON Server:
+1. **Open a terminal** in the project folder.
 
-```bash
-npx json-server --watch db.json --port 3000
-```
+2. **Start JSON Server:**
+   ```bash
+   json-server --watch db.json --port 3000
+   ```
+   (If `json-server` is not installed globally, use: `npx json-server --watch db.json --port 3000`)
 
-3. In another terminal, serve the project folder as static files.
+3. **Open the app in your browser:**
+   - Option A: Open `index.html` directly in your browser (double-click the file)
+   - Option B: Use VS Code Live Server extension (right-click `index.html` → Open with Live Server)
+   - Option C: Serve the project folder with Python:
+     ```bash
+     python -m http.server 5500
+     ```
+     Then visit: `http://localhost:5500/index.html`
 
-<!-- Using Python:
+4. **Access Admin Panel:**
+   - Open `admin.html` in your browser
 
-```bash
-python -m http.server 5500
-```
+5. **Make sure JSON Server is running** (you should see output in the terminal showing the server is active on port 3000)
 
-Or using a simple npm server such as `http-server`:
-
-```bash
-npx http-server . -p 5500
-``` -->
-
-Or use VS Code Live Server.
+The app will now load products from the JSON Server and you can browse, search, and add items to your cart.
 
 ## Run
 
